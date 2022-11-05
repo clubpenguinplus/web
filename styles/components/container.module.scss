@@ -1,0 +1,14 @@
+@import "../styles/variables.scss";
+
+.container {
+  width: $containerMaxWidth;
+  max-width: $containerMaxWidth;
+  padding: 0px !important;
+}
+
+.default {
+  background: #006fc1;
+  color: #000000;
+  border-left: 1px solid $primaryBlue;
+  border-right: 1px solid $primaryBlue;
+}

@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cpplus.pw
+
+# Sitemaps
+Sitemap: https://cpplus.pw/sitemap.xml
+Sitemap: https://cpplus.pw/sitemap-1.xml

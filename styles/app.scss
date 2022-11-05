@@ -1,0 +1,98 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+// Required Bootstrap Imports
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Add Desired Components
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "../node_modules/bootstrap/scss/spinners";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/alert";
+
+@import "./variables.scss";
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/ProximaNova-Reg-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/ProximaNova-Bold-webfont.woff2") format("woff2");
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: 2vh;
+  line-height: normal;
+  color: #ffffff;
+  overflow-x: hidden;
+  background: #006fc1 url(../assets/Evergreen-Background-1423077392.jpg) 50% 50% no-repeat;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $primaryFontBold;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+h2 {
+  font-size: 3vh;
+}
+
+h3 {
+  font-size: 2vh;
+}
+
+#__next {
+  height: 100%;
+}
+
+a {
+  color: $primaryBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $primaryOrange;
+}
+
+.fullPageText {
+  background-color: #ffffff;
+  padding: 3%;
+}
+
+.blog {
+  padding: 3%;
+}
+
+.error {
+  padding: 3%;
+  min-height: 72vh;
+}

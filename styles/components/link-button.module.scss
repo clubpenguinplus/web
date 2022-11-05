@@ -1,0 +1,44 @@
+@import "../variables.scss";
+
+.button {
+  font-family: $primaryFontBold;
+  background-size: 1px 148px;
+  border-radius: $borderRadius;
+  padding: 15px 20px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  transition: all 200ms ease;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+
+  &.yellow {
+    background-image: linear-gradient(180deg, #ffe477 0vh, #ffcc00 50vh, #ffcc00 100%);
+    border: 1px solid #ff9d00;
+    box-shadow: inset 0 2px 0 0 #fff7d7;
+    color: #6e4e00;
+    text-shadow: #fff 0 1px 0;
+    text-shadow: rgb(255 255 255 / 50%) 0 1px 0;
+  }
+
+  &.yellow:hover {
+    background-image: linear-gradient(180deg, #ffcc00 0vh, #ffe477 50vh, #ffe477 100%);
+    box-shadow: inset 0 -2px 0 0 #fff7d7;
+  }
+
+  &.blue {
+    background-image: linear-gradient(180deg, #41a0e4 0vh, #0b58b1 50vh, #0b58b1 100%);
+    border: 1px solid #41a0e4;
+    box-shadow: inset 0 2px 0 0 #41a0e4;
+    color: #e9f1f9;
+    text-shadow: #0f2e4d 0 1px 0;
+    text-shadow: rgb(0 0 0 / 50%) 0 1px 0;
+  }
+
+  &.blue:hover {
+    background-image: linear-gradient(180deg, #0b58b1 0vh, #41a0e4 50vh, #41a0e4 100%);
+    box-shadow: inset 0 -2px 0 0 #e9f1f9;
+    transform: scale(1.2);
+  }
+}

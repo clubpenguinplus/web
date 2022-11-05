@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.table {
+  tr {
+    th {
+      font-family: $primaryFontBold;
+    }
+
+    th:first-of-type,
+    td:first-of-type {
+      padding-left: 1.5rem;
+    }
+  }
+}

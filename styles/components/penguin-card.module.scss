@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+.card {
+  background: #ffffff;
+  color: #000000;
+  display: block;
+  overflow: hidden;
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 30%) 0px 5px 5px;
+  border-radius: $borderRadius;
+  text-decoration: none;
+
+  .header {
+    background: $primaryOrange;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: $primaryFontBold;
+    text-shadow: 1px 1px rgb(0 0 0 / 75%);
+  }
+
+  .label {
+    color: $primaryBlue;
+    font-family: $primaryFontBold;
+  }
+}

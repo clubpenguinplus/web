@@ -1,0 +1,22 @@
+@import "../variables.scss";
+
+.carousel {
+  overflow: hidden;
+}
+
+.about {
+  width: 44%;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: #ffffff;
+}
+
+.aboutDiv {
+  --bs-gutter-y: 1.5rem;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat center/1px 100vh;
+  display: flex;
+}
+
+.mainImg {
+  margin-bottom: 5vh !important;
+}

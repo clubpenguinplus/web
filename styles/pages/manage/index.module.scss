@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+.container {
+  a {
+    color: $primaryOrange;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
