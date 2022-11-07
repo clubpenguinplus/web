@@ -30,7 +30,9 @@ export default function MyApp({ Component, pageProps: { session, ...pageProps } 
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="viewport" content="width=1024"></meta>
-        <Script src={"https://www.googletagmanager.com/gtag/js?id=" + config.public.googleAnalyticsId} strategy="afterInteractive" />
+      </Head>
+      
+      <Script src={"https://www.googletagmanager.com/gtag/js?id=" + config.public.googleAnalyticsId} strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -40,7 +42,6 @@ export default function MyApp({ Component, pageProps: { session, ...pageProps } 
             gtag('config', '${config.public.googleAnalyticsId}');
           `}
       </Script>
-      </Head>
 
       <Layout websiteTitle={config.public.websiteTitle} announcement={config.public.announcement} menuLinks={config.public.menuLinks} disclaimer={disclaimer} socialLinks={config.public.socialLinks} footerLinks={config.public.footerLinks} button={playButton}>
         <Component {...pageProps} />
