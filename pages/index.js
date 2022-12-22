@@ -53,33 +53,25 @@ export default function Home() {
         <div className="row g-4">
           <div className="col col-12 col-md-6">
             <FeatureCard image={Modern} title="Modern Features">
-              Igloo system that allows players to design up to 4 igloos
-              as well as a system for liking igloos, modern rooms, minigames,
-              catalogs, and adventures to keep you busy!
+              {t("modernfeatures")}
             </FeatureCard>
           </div>
 
           <div className="col col-12 col-md-6">
             <FeatureCard image={Challenges} title="Challenges">
-              Players can participate in daily and weekly challenges
-              to earn special currency, which can then be used to purchase
-              items in our rotating challenge market!
+            {t("challenges")}
             </FeatureCard>
           </div>
 
           <div className="col col-12 col-md-6">
             <FeatureCard image={Explore} title="Explore the Island">
-              Over 40 rooms to explore, each with its own unqiue theme
-              and activities. Earn stamps by completing tasks and 
-              play minigames scattered around the island!
+            {t("explore")}
             </FeatureCard>
           </div>
 
           <div className="col col-12 col-md-6">
             <FeatureCard image={BeYourself} title="Be Expressive">
-              Players can express themselves and customize their penguin
-              with one of 8 always available catalogs, featuring hundreds
-              of obtainable items at launch.
+            {t("express")}
             </FeatureCard>
           </div>
         </div>
