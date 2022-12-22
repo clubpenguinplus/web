@@ -38,7 +38,7 @@ export default function Home() {
     </>
     
     <Container customPage>
-        <Carousel indicators={false} className={cn(styles.carousel, "mb-4")}>
+        <Carousel indicators={false} controls={false} className={cn(styles.carousel, "mb-4")}>
           <Carousel.Item>
             <Image
               className="d-block w-100"
