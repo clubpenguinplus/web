@@ -1,9 +1,9 @@
 @import "../styles/variables.scss";
 
 .container {
-  width: $containerMaxWidth;
   max-width: $containerMaxWidth;
   padding: 0px !important;
+  flex: 1;
 }
 
 .default {

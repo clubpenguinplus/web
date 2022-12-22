@@ -8,6 +8,7 @@ import useTranslation from "next-translate/useTranslation";
 import Container from "./Container";
 
 import Logo from "../assets/logo.webp";
+import FooterBg from "../assets/promo-wrap-bg.png";
 import LinkButton from "./LinkButton";
 import TwitterIcon from "../assets/icons/twitter-icon.svg";
 import DiscordIcon from "../assets/icons/discord-icon.svg";
@@ -92,18 +93,20 @@ const Layout = ({
         </div>
       </div>
 
-      <Container children={children} backgroundColor="blue"></Container>
+      <Container children={children} backgroundColor="blue" layout="responsive"></Container>
 
       <div className={cn(styles.footer, "p-4")}>
         <div className={styles.inner}>
           <div className={cn(styles.middle, "px-4")}>
-            <div className={cn(styles.links, "pb-3")}>
-              <a key="footer-link-3" href="/pt" target="_self" className="mx-3">
-                PORTUGUÊS
-              </a>
+            <div className={cn(styles.languagelinks, "pb-3")}>
               <a key="footer-link-4" href="/en" target="_self" className="mx-3">
                 ENGLISH
               </a>
+              <span>|</span>
+              <a key="footer-link-3" href="/pt" target="_self" className="mx-3">
+                PORTUGUÊS
+              </a>
+              <span>|</span>
               <a key="footer-link-5" href="/es" target="_self" className="mx-3">
                 ESPAÑOL
               </a>
@@ -112,13 +115,14 @@ const Layout = ({
               <a key="footer-link-1" href="/terms" target="_self" className="mx-3">
                 {t("terms")}
               </a>
+              <span>|</span>
               <a key="footer-link-2" href="/privacy" target="_self" className="mx-3">
                 {t("privacy")}
               </a>
             </div>            
 
             {disclaimer && (
-              <div className={styles.disclaimer}>
+              <div className={styles.disclaimer} layout="reponsive">
                 {t("disclaimer1")}
                 <br />
                 {t("disclaimer2")}

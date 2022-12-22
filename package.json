@@ -8,6 +8,7 @@
     "prettify": "prettier --write . --print-width 99999999"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@sendgrid/mail": "^7.7.0",
     "axios": "^0.27.2",
     "bcrypt": "^5.0.1",

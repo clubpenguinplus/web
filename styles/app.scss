@@ -43,8 +43,8 @@ html {
   margin: 0;
   padding: 0;
   font-family: $primaryFont;
-  font-weight: 700;
-  font-size: 2vh;
+  font-weight: 600;
+  font-size: 1rem;
   line-height: normal;
   color: #ffffff;
   overflow-x: hidden;
@@ -60,15 +60,15 @@ h3 {
 }
 
 h1 {
-  font-size: 4vh;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 3vh;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 2vh;
+  font-size: 1rem;
 }
 
 #__next {

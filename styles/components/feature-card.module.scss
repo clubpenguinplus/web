@@ -3,10 +3,14 @@
 .card {
   display: flex;
   flex-direction: row;
-  background: rgba(34, 160, 238, 1);
-  padding: 15px;
+  background: #359de7;
+  color: #ffffff;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 10px;
   border-radius: $borderRadius;
-  flex-shrink: 0;
+  border: 1px solid #ffffff;
+  flex-shrink: 1;
 
   h3.heading {
     font-size: 22px;
@@ -33,16 +37,16 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
   .card {
     flex-direction: column;
 
     .left {
-      width: 100vh;
+      width: 100%;
     }
-
+  
     .right {
       padding: 15px 0 0 0;
-    }
+    }  
   }
 }
