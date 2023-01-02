@@ -52,25 +52,25 @@ export default function Home() {
 
         <div className="row g-4">
           <div className="col col-12 col-md-6">
-            <FeatureCard image={Modern} title="Modern Features">
+            <FeatureCard image={Modern} title={t("feattitle")}>
               {t("modernfeatures")}
             </FeatureCard>
           </div>
 
           <div className="col col-12 col-md-6">
-            <FeatureCard image={Challenges} title="Challenges">
+            <FeatureCard image={Challenges} title={t("chaltitle")}>
             {t("challenges")}
             </FeatureCard>
           </div>
 
           <div className="col col-12 col-md-6">
-            <FeatureCard image={Explore} title="Explore the Island">
+            <FeatureCard image={Explore} title={t("exploretitle")}>
             {t("explore")}
             </FeatureCard>
           </div>
 
           <div className="col col-12 col-md-6">
-            <FeatureCard image={BeYourself} title="Be Expressive">
+            <FeatureCard image={BeYourself} title={t("expresstitle")}>
             {t("express")}
             </FeatureCard>
           </div>
