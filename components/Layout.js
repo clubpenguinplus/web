@@ -75,7 +75,7 @@ const Layout = ({
             var lang = "/" + document.location.pathname.split('/')[1]
             if (lang.length == 3) {
             document.getElementsByClassName('mx-3')[0].setAttribute("href", lang + "/" + "blog" + "-" + lang.substring(1, 3));
-            document.getElementsByClassName('mx-3')[2].setAttribute("href", lang + "/" + "create");
+            document.getElementsByClassName('mx-3')[2].setAttribute("href", "https://play.cpplus.pw/" + lang + "/?create");
             document.getElementsByClassName('mx-3')[6].setAttribute("href", lang + "/" + "terms");
             document.getElementsByClassName('mx-3')[7].setAttribute("href", lang + "/" + "privacy");
             document.getElementById('logo').setAttribute("href", lang);
