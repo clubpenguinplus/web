@@ -63,7 +63,7 @@ const Layout = ({
               <a key="menu-link-2" href="https://discord.gg/x3QuKfezb4" target="_blank" className="mx-3">
                 Discord
               </a>
-              <a key="menu-link-3" href="create" target="_self" className="mx-3">
+              <a key="menu-link-3" href="https://play.cpplus.pw/en/?create" target="_self" className="mx-3">
                 {t("create")}
               </a>
             </div>
