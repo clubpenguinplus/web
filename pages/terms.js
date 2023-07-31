@@ -32,7 +32,7 @@ export default function Terms() {
           {t("tos11")} <a href="https://play.cpplus.pw">play.cpplus.pw</a>, {t("tos12")}
         </p>
         <p>
-          {t("tos13")} <a href="mailto:appeal@clubpenguin.plus">appeal@clubpenguin.plus</a> or on <a href="https://discord.gg/x3QuKfezb4">{t("tos14")}</a> {t("tos15")}.
+          {t("tos13")} <a href="mailto:appeal@clubpenguin.plus">appeal@clubpenguin.plus</a> or on <a href="https://discord.gg/bm28TJfvWr">{t("tos14")}</a> {t("tos15")}.
         </p>
       </div>
     </>

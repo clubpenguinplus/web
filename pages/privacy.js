@@ -249,7 +249,7 @@ export default function Privacy() {
           <li>
             <p>
               {t("pri125")}{" "}
-              <a href="https://discord.gg/x3QuKfezb4" rel="external nofollow noopener" target="_blank">
+              <a href="hhttps://discord.gg/bm28TJfvWr" rel="external nofollow noopener" target="_blank">
                 {t("pri126")}
               </a>
             </p>

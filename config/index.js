@@ -1,4 +1,4 @@
-const DISCORD_URL = process.env.NEXT_PUBLIC_DISCORD_URL || "https://discord.gg/x3QuKfezb4";
+const DISCORD_URL = process.env.NEXT_PUBLIC_DISCORD_URL || "https://discord.gg/bm28TJfvWr";
 
 const config = {
   public: {
