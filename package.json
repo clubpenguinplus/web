@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next-sitemap",
-    "start": "next start",
+    "start": "next start -p 3333",
     "prettify": "prettier --write . --print-width 99999999"
   },
   "dependencies": {
